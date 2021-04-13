@@ -1,0 +1,24 @@
+{
+  "name": "express-in-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --esModuleInterop *.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.75",
+    "@types/express": "^4.17.11",
+    "@types/json-stringify-safe": "^5.0.0",
+    "@vendia/serverless-express": "^4.3.4",
+    "express": "^4.17.1",
+    "json-stringify-safe": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
